@@ -117,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             SliverToBoxAdapter(
               child: SizedBox(
                 height: MediaQuery.of(context).size.height *
-                    (MediaQuery.of(context).size.height < 700 ? 0.2 : 0.05),
+                    (MediaQuery.of(context).size.height < 750 ? 0.2 : 0.05),
               ),
             ),
           ],
